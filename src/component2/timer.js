@@ -51,22 +51,22 @@ const Timer = () => {
             <div className={styles.timer_inner}>
               <div className={styles.timer_segment}>
                 <span className={styles.time}>{days}</span>
-                <span className={styles.label}>Days</span>
+                <span className={styles.label}>Días</span>
               </div>
               <span className={styles.divider}>:</span>
               <div className={styles.timer_segment}>
                 <span className={styles.time}>{hours}</span>
-                <span className={styles.label}>Hours</span>
+                <span className={styles.label}>Horas</span>
               </div>
               <span className={styles.divider}>:</span>
               <div className={styles.timer_segment}>
                 <span className={styles.time}>{minutes}</span>
-                <span className={styles.label}>Minutes</span>
+                <span className={styles.label}>Minutos</span>
               </div>
               <span className={styles.divider}>:</span>
               <div className={styles.timer_segment}>
                 <span className={styles.time}>{seconds}</span>
-                <span className={styles.label}>Seconds</span>
+                <span className={styles.label}>Segundos</span>
               </div>
             </div>
           </div>
