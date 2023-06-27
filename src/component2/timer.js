@@ -38,7 +38,6 @@ const Timer = () => {
   }, []);
 
   return (
-    <div className={styles.timer}>
         <div className={styles.container}>
 
       {partyTime ? (
@@ -73,7 +72,6 @@ const Timer = () => {
         </>
       )}
         </div>
-    </div>
   );
 };
 

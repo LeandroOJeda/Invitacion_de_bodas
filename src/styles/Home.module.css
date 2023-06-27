@@ -229,77 +229,71 @@
   }
 }
 
-.timer {
-
   .container {
     padding: 0 0.5rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+  }
 
-    .timer_wrapper {
-      border-radius: 5px;
-      z-index: 2;
-      display: flex;
-      flex-direction: row;
-    }
+  .timer_wrapper {
+    border-radius: 5px;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+  }
     
-    .timer_inner {
-      color: #333;
-      display: flex;
-      padding: 2rem;
-      border-radius: 5px;
+  .timer_inner {
+    color: #333;
+    display: flex;
+    padding: 2rem;
+    border-radius: 5px;
 
-    }
+  }
     
-    .timer_segment {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-    }
+  .timer_segment {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
     
-    .divider,
-    .time {
-      font-size: 6rem;
-    }
+  .divider,
+  .time {
+    font-size: 6rem;
+  }
     
-    .diver {
-      padding: 0 2rem;
-    }
-    
-    .label {
-      font-size: 3rem;
-    }
-
-    .isToday {
-      z-index: 2;
-      font-size: 8rem;
-      color: black !important;
-    }
-    
-    @media (max-width: 700px) {
-      .divider,
-    .time {
-      font-size: 3rem;
-    }
-    
-    .diver {
-      padding: 0 2rem;
-    }
-    
-    .label {
-      font-size: 1.5rem;
-    }
-
-    .isToday {
-      z-index: 2;
-      font-size: 3rem;
-      color: black !important;
-    }
-    }
+  .diver {
+    padding: 0 2rem;
   }
   
+  .label {
+    font-size: 3rem;
+  }
 
-}
+  .isToday {
+    z-index: 2;
+    font-size: 8rem;
+    color: black !important;
+  }
+    
+  @media (max-width: 700px) {
+    .divider,
+  .time {
+    font-size: 3rem;
+  }
+  
+  .diver {
+    padding: 0 2rem;
+  }
+  
+  .label {
+    font-size: 1.5rem;
+  }
+
+  .isToday {
+    z-index: 2;
+    font-size: 3rem;
+    color: black !important;
+  }
+    }
