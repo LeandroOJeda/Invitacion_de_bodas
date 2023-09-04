@@ -104,14 +104,14 @@ export default function Home() {
               <img src={"/rings.svg"} height={88} width={98}/>
               <Typography sx={{mt:3, mb:1}}>Parroquia Nuestra Señora de Fátima</Typography>
               <Typography>80 Av. Fernando Elías</Typography>
-              <Typography>7 de Octubre a las 19:00 hs.</Typography>
+              <Typography>7 de Octubre a las 20:30 hs.</Typography>
               <Button href='https://goo.gl/maps/jtvSVY3skCSYGNY29' variant="contained" sx={{textTransform:'uppercase', backgroundColor:'#55783B', mt:2, fontSize:12}}>ver mapa</Button>
             </Card>
             <Card sx={{backgroundColor:'transparent', border:'none', boxShadow:'none', display:'flex', flexDirection:'column', alignItems:'center', textAlign:'center'}}>
               <img src={"/glass.svg"} height={89} width={94} />
               <Typography sx={{mt:3, mb:1}}>Salón Circulo de Oficiales de la Policía</Typography>
               <Typography>3304, Garupa, Misiones</Typography>
-              <Typography>7 de Octubre a las 20:00 hs.</Typography>
+              <Typography>7 de Octubre a las 21:15 hs.</Typography>
               <Button href='https://goo.gl/maps/7hrzJsjFLR8szCrA7' variant="contained" sx={{textTransform:'uppercase', backgroundColor:'#55783B', mt:2, fontSize:12}}>ver mapa</Button>
             </Card>
         </Card>
